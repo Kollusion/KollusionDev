@@ -1,0 +1,122 @@
+{
+    "Navbar": {
+        "contactButton": "Contact Me"
+    },
+    "Hero": {
+        "titleLine1": "Looking for a developer? No.",
+        "titleLine2": "You're looking for",
+        "highlight": "an advantage",
+        "descriptionLine1": "Full-stack development. Bot creation. Scripting.",
+        "descriptionLine2": "I build websites that sell—and more.",
+        "contactButton": "Get in Touch"
+    },
+    "HeroCardButtons": {
+        "portfolio": {
+            "title": "Portfolio",
+            "description": "Here you’ll see how I turn ideas into working products: from mockups to fully functional websites with backend logic and animations."
+        },
+        "stack": {
+            "title": "Tech Stack",
+            "description": "Technologies I use: proven, modern, and no fluff—only what delivers results."
+        },
+        "services": {
+            "title": "Services",
+            "description": "What I offer: everything from landing pages to full-stack solutions tailored to your business or project."
+        }
+    },
+    "Portfolio": {
+        "title": "My Portfolio",
+        "subtitle": "Projects and tasks I’ve completed.",
+        "taskLabel": "Challenge:",
+        "solutionLabel": "Solution:",
+        "features": "Key Features",
+        "stack": "Technologies",
+        "buttons": {
+            "details": "Details",
+            "sameForMe": "I want the same",
+            "viewMore": "More projects on my GitHub"
+        }
+    },
+    "Stack": {
+        "title": "My Tech Stack",
+        "subtitle": "Technologies I currently work with or have used before.",
+        "frontend": {
+            "title": "Frontend Development",
+            "description": "I aim to create interfaces that are not only beautiful but also intuitive. I write clean, maintainable code using React, TypeScript, and modern frameworks to ensure every user interaction is smooth and enjoyable."
+        },
+        "backend": {
+            "title": "Backend Development",
+            "description": "I build reliable and scalable server-side solutions that run silently—without errors, delays, or crashes. I use modern runtimes and API architectures to keep your application stable, even under heavy load."
+        },
+        "devops": {
+            "title": "DevOps & Infrastructure",
+            "description": "I automate building, testing, and deployment to deliver updates quickly and securely. I leverage modern cloud platforms and containerization."
+        },
+        "apps": {
+            "title": "Scripts & Applications",
+            "description": "I develop utilities, bots, and cross-platform applications—from task automation to desktop solutions."
+        }
+    },
+    "Services": {
+        "title": "My Services",
+        "subtitle": "I solve problems - from landing pages to complex web applications.",
+        "buttons": {
+            "discuss": "Discuss"
+        }
+    },
+    "Contact": {
+        "title": "Get in Touch",
+        "subtitle": "I'm open to discussing projects, collaboration, or just chatting about design and technology.",
+        "bottomText": "Made with love by kollusion ❤️",
+        "bottomText2": "(please don't steal)",
+        "buttons": {
+            "telegramButton": "Message on Telegram",
+            "payment": "Payment",
+            "terms": "Terms",
+            "refund": "Refunds"
+        },
+        "modals": {
+            "payment": {
+                "title": "Payment Methods",
+                "russia_title": "For clients from Russia:",
+                "international_title": "International payments:",
+                "processing_time": "Processing time: 1–3 business days"
+            },
+            "terms": {
+                "title": "Payment Terms",
+                "prepayment": "Prepayment",
+                "prepayment_standard": "Standard prepayment: 30–50% of the total",
+                "prepayment_small": "For projects under 2,000 ₽: 100% prepayment",
+                "prepayment_locks": "Prepayment locks in deadlines and terms",
+                "stages": "Stage-based payments",
+                "stages_large": "Large projects are split into stages",
+                "stages_after": "Payment after completion of each stage",
+                "stages_transparent": "Transparent progress tracking",
+                "timing": "Payment deadlines",
+                "invoice_valid": "Invoice is valid for 3 business days",
+                "work_starts": "Work begins within 24 hours after payment",
+                "deferral": "Payment deferral is discussed individually"
+            },
+            "refund": {
+                "title": "Refund Policy",
+                "full_refund": "Full 100% refund",
+                "full_refund_not_started": "If I haven’t started work yet",
+                "full_refund_mutual": "By mutual agreement",
+                "full_refund_force_majeure": "In case of force majeure",
+                "partial_refund": "Partial refund",
+                "partial_refund_proportional": "Proportional to the work completed",
+                "partial_refund_early_stop": "If the project is terminated early",
+                "partial_refund_my_fault": "Due to technical issues on my side",
+                "no_refund": "No refund",
+                "no_refund_after_start": "After active development has begun",
+                "no_refund_delivered": "If deliverables have already been provided",
+                "no_refund_your_violation": "If you violate the terms",
+                "process": "Refund process",
+                "step1": "Submit a refund request",
+                "step2": "Reviewed within 3 business days",
+                "step3": "Refund issued to the original payment method",
+                "step4": "Processing time: 5–10 business days"
+            }
+        }
+    }
+}
