@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://github.com/Kollusion/KollusionDev/public/og-image.png" alt="kollusion.dev — Portfolio of a frontend developer" width="100%">
+    <img src="https://raw.githubusercontent.com/Kollusion/KollusionDev/refs/heads/main/public/og-image.png" alt="kollusion.dev — Portfolio of a frontend developer" width="100%">
 </p>
 
 # 🌐 kollusion.dev — Портфолио frontend-разработчика
