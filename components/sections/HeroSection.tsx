@@ -23,7 +23,9 @@ const HeroSection = () => {
                                 <h1 className='text-2xl lg:text-7xl font-medium'>{t('titleLine2')} <span className='bg-gradient-to-br from-primary to-sidebar-ring bg-clip-text text-transparent font-bold drop-shadow-md drop-shadow-primary'>{t('highlight')}!</span></h1>
                             </div>
                             <p className='text-xs lg:text-lg text-muted-foreground w-2xl'>{t('descriptionLine1')} <br /> {t('descriptionLine2')}</p>
-                            <Button size={'xl'}>{t('contactButton')} <PenIcon /></Button>
+                            <a href="#ContactSection">
+                                <Button size={'xl'}>{t('contactButton')} <PenIcon /></Button>
+                            </a>
                             <MouseIcon className='mx-auto size-8 text-muted animate-pulse lg:hidden' />
                         </div>
                     </div>

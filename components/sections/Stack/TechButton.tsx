@@ -47,7 +47,7 @@ const TechButton = ({ name, icon, color, href, className = '', ...props }: TechB
         >
             <Image
                 src={icon}
-                alt={name}
+                alt={name + 'Icon'}
                 width={64}
                 height={64}
                 className="size-5"
