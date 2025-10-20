@@ -41,7 +41,7 @@ const Navbar = () => {
                         <span className={`font-mono flex items-center duration-500 gap-2 ${active ? 'opacity-0' : ''}`}>.dev <Code2Icon /></span>
                     </h1>
                     <div className='flex gap-2 lg:gap-4 items-center'>
-                        <Link href={`/${otherLocale}`}>
+                        <Link rel="canonical" href={`/${otherLocale}`}>
                             <Button variant={'ghost'}>{otherLocale.toUpperCase()}</Button>
                         </Link>
                         <Link href={kollusion.gitHubLink}>
