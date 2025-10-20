@@ -118,5 +118,10 @@
                 "step4": "Processing time: 5–10 business days"
             }
         }
+    },
+    "NotFound": {
+        "title": "Page Not Found",
+        "description": "Sorry, the page you're looking for doesn't exist.",
+        "backHome": "Go back home"
     }
 }
