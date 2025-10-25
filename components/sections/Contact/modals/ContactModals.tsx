@@ -19,6 +19,7 @@ const PaymentModal = () => {
                 <div>
                     <h3 className="font-semibold text-foreground">🇷🇺 {t('russia_title')}</h3>
                     <ul className="list-disc pl-5 mt-1 space-y-1">
+                        <li>Банковский перевод</li>
                         <li>ЮKassa</li>
                         <li>tome.ge</li>
                     </ul>
