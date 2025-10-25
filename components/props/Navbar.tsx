@@ -36,9 +36,9 @@ const Navbar = () => {
                 <div className={`flex justify-between rounded-b-xl lg:rounded-2xl container duration-750 items-center mx-auto ${active ? 'bg-muted/30 backdrop-blur-lg px-4 py-1 max-w-6xl' : 'p-8 '}`}>
                     <h1 className={`font-bold select-none cursor-pointer active:cursor-grab duration-500 tracking-wide hover:tracking-wider active:tracking-widest ${active ? 'translate-y-4 text-sm lg:text-2xl' : 'text-sm lg:text-lg'}`}>
                         KOLLUSION
-                        <span className={`font-mono text-sm lg:text-lg duration-500 ${active ? '' : 'opacity-0'}`}>.dev</span>
+                        <span className={`font-mono text-sm lg:text-lg duration-500 ${active ? '' : 'opacity-0'}`}>.pro</span>
                         <br />
-                        <span className={`font-mono flex items-center duration-500 gap-2 ${active ? 'opacity-0' : ''}`}>.dev <Code2Icon /></span>
+                        <span className={`font-mono flex items-center duration-500 gap-2 ${active ? 'opacity-0' : ''}`}>.pro <Code2Icon /></span>
                     </h1>
                     <div className='flex gap-2 lg:gap-4 items-center'>
                         <Link rel="canonical" href={`/${otherLocale}`}>
