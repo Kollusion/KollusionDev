@@ -43,7 +43,7 @@ const Loader = () => {
         <div className={`fixed w-full h-full bg-background z-50 flex justify-center items-center duration-500 ${visibleLoader ? '' : 'opacity-0 pointer-events-none'}`}>
             <div className="relative flex flex-col items-center">
                 <h3 className="text-5xl font-bold">
-                    KOLLUSION<span className="font-mono text-4xl">.dev</span>
+                    KOLLUSION<span className="font-mono text-4xl">.pro</span>
                 </h3>
 
                 <motion.svg
