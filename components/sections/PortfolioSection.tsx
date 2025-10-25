@@ -26,21 +26,6 @@ const PortfolioSection = () => {
         return locale === 'en' ? portfolioDataEn : portfolioData;
     }, [locale]);
 
-    const handleGoToTelegram = (title: string) => {
-        const messages = [
-            `Привет! Хочу такой же сайт, как ваш ${title}. Готов обсудить детали и сроки.`,
-            `Видел ваш сайт ${title} — он отлично выглядит. Хочу такой же для своего проекта.`,
-            `Хочу сайт как ${title}. Сколько стоит и когда можно начать?`,
-            `Крутой сайт у ${title}! Хочу такой же для своего проекта. Берёшь заказы сейчас?`
-        ];
-
-        const randomMessage = encodeURIComponent(messages[Math.floor(Math.random() * messages.length)]);
-
-        const telegramLink = `${kollusion.telegramUrl}?text=${randomMessage}`;
-
-        return telegramLink;
-    }
-
     return (
         <>
             <section className='container mx-auto max-lg:px-4'>

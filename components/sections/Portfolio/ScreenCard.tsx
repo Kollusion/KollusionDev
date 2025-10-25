@@ -9,7 +9,7 @@ interface Props {
 
 const ScreenCard = ({ src, className }: Props) => {
     return (
-        <div className={'w-full bg-card rounded-2xl duration-500 overflow-clip active:scale-99 ' + className}>
+        <div className={'w-full bg-card rounded-2xl duration-500 overflow-clip active:scale-99 hover:cursor-grab active:cursor-grabbing ' + className}>
             <div className='w-full py-1 px-3 bg-accent flex justify-between items-center active:cursor-grabbing hover:cursor-grab'>
                 <div className='flex gap-1'>
                     <div className='bg-red-500/80 w-3 h-3 rounded-full flex items-center justify-center cursor-pointer'><XIcon className='size-2 opacity-70' /></div>
@@ -18,7 +18,7 @@ const ScreenCard = ({ src, className }: Props) => {
                 </div>
             </div>
             <div className='w-full h-full'>
-                <Image src={src} alt='' width={1200} height={800} className='w-full'></Image>
+                <Image src={src} loading='lazy' alt='' width={912} height={513} className='w-full'></Image>
                 {/* <iframe src='https://google.com' className='w-full h-100'></iframe> */}
             </div>
         </div>
