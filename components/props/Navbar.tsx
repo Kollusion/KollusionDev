@@ -47,7 +47,7 @@ const Navbar = () => {
                         <Link href={kollusion.gitHubLink}>
                             <Button variant={'ghost'} className='max-lg:hidden'>Github <GithubIcon /></Button>
                         </Link>
-                        <a href="#ContactSection">
+                        <a href="#ContactSection" aria-label="Профиль Kollusion на GitHub">
                             <Button>{t('contactButton')} <PenIcon /></Button>
                         </a>
                     </div>
