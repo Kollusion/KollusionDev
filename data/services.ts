@@ -15,7 +15,7 @@ export const tabs: ServicesTabs[] = [
                 id: 'landing',
                 title: 'Лендинг',
                 description: 'Одностраничник для твоего проекта: быстро, красиво, продающе.',
-                price: 'от 15 000 ₽',
+                price: 'от 7 000 ₽',
                 tech: ['Next.js', 'TypeScript', 'Tailwind'],
                 includes: [
                     'Адаптивный дизайн',
@@ -29,7 +29,7 @@ export const tabs: ServicesTabs[] = [
                 id: 'ecommerce',
                 title: 'Интернет-магазин',
                 description: 'Каталог, корзина, онлайн-оплата — всё для продаж.',
-                price: 'от 60 000 ₽',
+                price: 'от 40 000 ₽',
                 tech: ['Next.js', 'MongoDB', 'ЮKassa'],
                 includes: [
                     'Каталог товаров',
@@ -45,7 +45,7 @@ export const tabs: ServicesTabs[] = [
                 id: 'webapp',
                 title: 'Веб-приложение',
                 description: 'Сложная логика, база данных, API — полноценный продукт.',
-                price: 'от 80 000 ₽',
+                price: 'от 40 000 ₽',
                 tech: ['Next.js', 'MongoDB', 'Redis', 'TypeScript'],
                 includes: [
                     'Авторизация и профили',
@@ -61,7 +61,7 @@ export const tabs: ServicesTabs[] = [
                 id: 'corporate',
                 title: 'Корпоративный сайт',
                 description: 'Многостраничник для бизнеса: услуги, команда, контакты.',
-                price: 'от 40 000 ₽',
+                price: 'от 20 000 ₽',
                 tech: ['Astro', 'React', 'Content Collections'],
                 includes: [
                     '5–10 страниц',
@@ -84,7 +84,7 @@ export const tabs: ServicesTabs[] = [
                 id: 'business-bot',
                 title: 'Бот для бизнеса',
                 description: 'Приём заказов, уведомления, поддержка клиентов.',
-                price: 'от 25 000 ₽',
+                price: 'от 7 000 ₽',
                 tech: ['grammY', 'Node.js', 'MongoDB'],
                 includes: [
                     'Интерактивные меню',
@@ -99,7 +99,7 @@ export const tabs: ServicesTabs[] = [
                 id: 'entertainment-bot',
                 title: 'Развлекательные боты',
                 description: 'Игры, викторины, контент-боты для аудитории.',
-                price: 'от 15 000 ₽',
+                price: 'от 7 000 ₽',
                 tech: ['grammY', 'Redis'],
                 includes: [
                     'Команды и сценарии',
@@ -113,7 +113,7 @@ export const tabs: ServicesTabs[] = [
                 id: 'analytics-bot',
                 title: 'Бот с аналитикой',
                 description: 'Сбор данных, отчёты, уведомления по метрикам.',
-                price: 'от 35 000 ₽',
+                price: 'от 10 000 ₽',
                 tech: ['grammY', 'PostgreSQL', 'Node.js'],
                 includes: [
                     'Сбор и хранение данных',
@@ -127,7 +127,7 @@ export const tabs: ServicesTabs[] = [
                 id: 'integrator-bot',
                 title: 'Интегратор',
                 description: 'Связка Telegram с другими сервисами (CRM, почта, API).',
-                price: 'от 30 000 ₽',
+                price: 'от 10 000 ₽',
                 tech: ['grammY', 'REST API', 'Webhooks'],
                 includes: [
                     'Двусторонняя синхронизация',
@@ -148,7 +148,7 @@ export const tabs: ServicesTabs[] = [
                 id: 'desktop-app',
                 title: 'Десктоп-приложения',
                 description: 'Для Windows, macOS, Linux — быстро и без Electron-тормозов.',
-                price: 'от 40 000 ₽',
+                price: 'от 20 000 ₽',
                 tech: ['Tauri', 'Electron', 'TypeScript'],
                 includes: [
                     'Нативная производительность',
@@ -162,7 +162,7 @@ export const tabs: ServicesTabs[] = [
                 id: 'mobile-app',
                 title: 'Мобильные приложения',
                 description: 'iOS и Android из одного кода.',
-                price: 'от 50 000 ₽',
+                price: 'от 20 000 ₽',
                 tech: ['Capacitor', 'Tauri', 'React Native', 'TypeScript'],
                 includes: [
                     'Адаптивный UI',
@@ -176,7 +176,7 @@ export const tabs: ServicesTabs[] = [
                 id: 'pwa',
                 title: 'PWA-приложения',
                 description: 'Устанавливаются как нативные, но обновляются как сайты.',
-                price: 'от 30 000 ₽',
+                price: 'от 10 000 ₽',
                 tech: ['Next.js', 'Workbox', 'Service Workers'],
                 includes: [
                     'Оффлайн-режим',
@@ -190,7 +190,7 @@ export const tabs: ServicesTabs[] = [
                 id: 'automation',
                 title: 'Автоматизация и скрипты',
                 description: 'Парсинг, RPA, интеграции — избавлю от рутины.',
-                price: 'от 10 000 ₽',
+                price: 'от 6 000 ₽',
                 tech: ['Python', 'Puppeteer', 'Node.js'],
                 includes: [
                     'Анализ задачи',
@@ -204,7 +204,7 @@ export const tabs: ServicesTabs[] = [
                 id: 'bug-fix',
                 title: 'Исправление ошибок',
                 description: 'Найду и починю баги в твоём проекте.',
-                price: 'от 700 ₽ / час',
+                price: 'от 500 ₽ / час',
                 tech: ['—'],
                 includes: [
                     'Диагностика проблемы',
@@ -218,7 +218,7 @@ export const tabs: ServicesTabs[] = [
                 id: 'consulting',
                 title: 'Консультации',
                 description: 'Советы по архитектуре, стеку, оптимизации.',
-                price: 'от 1 500 ₽ / час',
+                price: 'Бесплатно',
                 tech: ['—'],
                 includes: [
                     'Анализ текущего проекта',
